@@ -14,7 +14,6 @@ public class Principal
 
 	public static void main(String[] args) throws IOException 
 	{
-
 		
 		//-Cree un fichero binario de ints nums.bin 
 		//(los que desee el usuario
@@ -25,6 +24,7 @@ public class Principal
 		int n;
 		do 
 		{
+			System.out.println("Estoy escribiendo solo para modificar el fichero");
 			System.out.println("Introduce un numero:");
 			n=Consola.leeInt();
 			dos.writeInt(n);
